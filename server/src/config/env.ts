@@ -16,8 +16,7 @@ export const env = {
   port: Number(process.env.PORT || 4000),
 
   mongodbUri: process.env.MONGODB_URI!,
-
-  corsOrigin: process.env.CORS_ORIGIN || "http://localhost:3000",
+  corsOrigin: process.env.CORS_ORIGIN || "http://localhost:5173",
 
   rateLimitWindowMs: Number(process.env.RATE_LIMIT_WINDOW_MS || 60000),
 

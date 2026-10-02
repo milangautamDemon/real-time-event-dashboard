@@ -13,7 +13,7 @@ app.use(helmet());
 
 app.use(
   cors({
-    origin: env.corsOrigin,
+    origin: env.corsOrigin || "*",
   }),
 );
 
