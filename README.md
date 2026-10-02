@@ -95,7 +95,6 @@ real-time-event-dashboard/
 └── README.md
 ```
 
-> Update `client/` above if your actual frontend directory has a different name.
 
 ## API
 
